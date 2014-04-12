@@ -1,0 +1,34 @@
+{
+  "name": "torius",
+  "version": "0.0.0",
+  "description": "Torius is simple module to work with TOR network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davit-khaburdzania/torius.git"
+  },
+  "keywords": [
+    "tor",
+    "url",
+    "proxy",
+    "anonymous",
+    "network",
+    "client",
+    "http",
+    "socks",
+    "socks5"
+  ],
+  "author": "Davit Khaburdzania",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davit-khaburdzania/torius/issues"
+  },
+  "homepage": "https://github.com/davit-khaburdzania/torius",
+  "dependencies": {
+    "socks5-http-client": "^0.1.6",
+    "request": "^2.34.0"
+  }
+}
