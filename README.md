@@ -7,7 +7,7 @@ Torius is simple module to work with TOR network
 
 ```$ npm install torius```
 
-## Examples
+## Usage Examples
 
 ### request method
 ```js
@@ -40,7 +40,7 @@ torius.get(url, query, function (err, res, body) {
 });
 ```
 
-### get method
+### post method
 ```js
 var Torius = Helpers.tor;
 var torius = new Torius();
