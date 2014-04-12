@@ -1,0 +1,15 @@
+.DS_Store
+DS_Store
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+logs
+npm-debug.log
+node_modules
+.env
