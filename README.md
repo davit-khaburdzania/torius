@@ -29,7 +29,7 @@ torius.request(options, function (err, res, body) {
 
 ### get method
 ```js
-var Torius = Helpers.tor;
+var Torius = require('torius');
 var torius = new Torius();
 
 var url = 'http://google.com';
@@ -42,7 +42,7 @@ torius.get(url, query, function (err, res, body) {
 
 ### post method
 ```js
-var Torius = Helpers.tor;
+var Torius = require('torius');
 var torius = new Torius();
 
 var url = 'http://google.com';
